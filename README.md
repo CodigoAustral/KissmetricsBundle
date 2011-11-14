@@ -66,6 +66,7 @@ Add Alias
     $this->container->get('kissmetrics.sessiontracker')->addAlias('Identify', 'Associate');
 
 Add Transaction
+
     $transaction = new \Bundle\KissmetricsBundle\Record\Transaction();
     $transaction->setAffiliation('My Store');
     $transaction->setCity('New York');
